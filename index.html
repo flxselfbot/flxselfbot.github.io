@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="FLX — Fluxer selfbot with dashboard, Script Hub, and built-in commands." />
+  <title>FLX — Your Ultimate Fluxer Toolkit</title>
+  <link rel="icon" type="image/png" href="./static/icon.png" />
+  <link rel="stylesheet" href="./static/landing.css" />
+</head>
+<body>
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <header class="site-nav">
+    <a class="brand" href="#">
+      <img src="./static/icon.png" alt="" width="36" height="36" />
+      <span>FLX</span>
+    </a>
+    <nav class="nav-links">
+      <a href="#features">Features</a>
+      <a href="#commands">Commands</a>
+      <a href="#hub">Script Hub</a>
+      <a href="#download">Download</a>
+    </nav>
+    <a class="btn btn-sm" href="https://github.com/Thec00lkiddGIT/FLX-FLUXER-SELFBOT/releases">Get FLX</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Fluxer selfbot · v1.1.3</p>
+        <h1>Your Ultimate<br /><span class="gradient-text">Fluxer Toolkit</span></h1>
+        <p class="lead">
+          Dashboard, Script Hub, built-in commands, and a UI you can actually use.
+          Everything for your Fluxer account — packed into one app.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="https://github.com/Thec00lkiddGIT/FLX-FLUXER-SELFBOT/releases">Download FLX</a>
+          <a class="btn btn-ghost" href="https://github.com/Thec00lkiddGIT/FLX-FLUXER-SELFBOT">View on GitHub</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="app-mock glass">
+          <div class="mock-topbar">
+            <span class="mock-dot"></span><span class="mock-dot"></span><span class="mock-dot"></span>
+            <span class="mock-title">FLX — Overview</span>
+          </div>
+          <div class="mock-body">
+            <div class="mock-sidebar">
+              <span class="active"></span><span></span><span></span><span></span><span></span>
+            </div>
+            <div class="mock-main">
+              <div class="mock-greeting">Hey, c00lkiddtech 👋</div>
+              <div class="mock-card">
+                <div class="mock-avatar">C</div>
+                <div>
+                  <strong>c00lkiddtech</strong>
+                  <div class="mock-badges"><span class="run">Running</span><span class="ok">Logged in</span></div>
+                </div>
+              </div>
+              <div class="mock-notify">
+                <div class="mock-line ok"></div>
+                <div class="mock-line ok"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="section">
+      <div class="section-head">
+        <h2>Everything you need from a Fluxer tool</h2>
+        <p>Built for Fluxer with a real dashboard, local config, and commands that keep working when rate limits hit.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card glass">
+          <div class="feature-icon">⚡</div>
+          <h3>Built-in commands</h3>
+          <p>ping, weather, QR, OSINT, screenshots, webhooks, purge, and more — ready out of the box.</p>
+        </article>
+        <article class="feature-card glass">
+          <div class="feature-icon">🧩</div>
+          <h3>Script Hub</h3>
+          <p>Write Python commands with FlxScript. Browse community scripts and add them in one click.</p>
+        </article>
+        <article class="feature-card glass">
+          <div class="feature-icon">🖥️</div>
+          <h3>Dashboard UI</h3>
+          <p>Start/stop the bot, edit settings, watch live events — macOS, Windows, Linux, and iOS.</p>
+        </article>
+        <article class="feature-card glass">
+          <div class="feature-icon">🔒</div>
+          <h3>Local &amp; private</h3>
+          <p>Token and scripts stay on your device. No cloud account required to run FLX.</p>
+        </article>
+        <article class="feature-card glass">
+          <div class="feature-icon">🤖</div>
+          <h3>FLX Assistant</h3>
+          <p>Local Llama via bundled Ollama on desktop — ask for scripts or FLX help offline.</p>
+        </article>
+        <article class="feature-card glass">
+          <div class="feature-icon">⏱️</div>
+          <h3>Rate-limit smart</h3>
+          <p>FLX waits and retries when Fluxer slowmodes or rate limits you — less babysitting.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="commands" class="section">
+      <div class="commands-layout">
+        <div class="commands-copy">
+          <h2>Commands everywhere</h2>
+          <p>Use <code>!</code> commands in DMs, groups, and servers. Mod and abuse commands stay gated until you enable them in the app.</p>
+          <ul class="check-list">
+            <li>General utilities — ping, help, weather, youtube</li>
+            <li>Mod tools — purge and server utilities</li>
+            <li>Hub scripts — your custom Python commands</li>
+          </ul>
+        </div>
+        <div class="discord-mock glass">
+          <div class="discord-head">
+            <img src="./static/icon.png" alt="" width="28" height="28" />
+            <strong>FLX</strong>
+            <span class="discord-bot">APP</span>
+          </div>
+          <div class="discord-body">
+            <p class="discord-title"><strong>Commands</strong> (prefix <code>!</code>)</p>
+            <p class="discord-cat"><strong>General</strong></p>
+            <p><code>!ping</code> — Returns bot latency (ms)</p>
+            <p><code>!weather</code> — City weather (C99.nl)</p>
+            <p><code>!qr</code> — QR code image + caption</p>
+            <p><code>!youtube</code> — search | video | trans</p>
+            <p class="discord-cat"><strong>Mod</strong></p>
+            <p><code>!purge</code> — Delete your recent messages</p>
+            <p class="discord-cat"><strong>Script Hub</strong></p>
+            <p><code>!httpcat</code> — HTTP status cat image</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="hub" class="section">
+      <div class="hub-band glass">
+        <div>
+          <h2>Custom scripts engine</h2>
+          <p>Create commands in Python with <code>@flxScript</code> and <code>@bot.command</code>, or import from the Community tab. Full guide in the repo.</p>
+        </div>
+        <a class="btn btn-primary" href="https://github.com/Thec00lkiddGIT/FLX-FLUXER-SELFBOT/blob/main/docs/FLXSCRIPT_GUIDE.md">FlxScript guide</a>
+      </div>
+    </section>
+
+    <section id="download" class="section download-section">
+      <div class="section-head center">
+        <h2>Get started now</h2>
+        <p>Free and open source. Download for your platform, add your token, hit Start bot.</p>
+      </div>
+      <div class="download-grid">
+        <a class="download-card glass" href="https://github.com/Thec00lkiddGIT/FLX-FLUXER-SELFBOT/releases">
+          <span class="dl-icon"></span>
+          <h3>macOS</h3>
+          <p>FLX-macOS.zip → FLX.app</p>
+        </a>
+        <a class="download-card glass" href="https://github.com/Thec00lkiddGIT/FLX-FLUXER-SELFBOT/releases">
+          <span class="dl-icon win"></span>
+          <h3>Windows</h3>
+          <p>FLX-Windows.zip → FLX.exe</p>
+        </a>
+        <a class="download-card glass" href="https://github.com/Thec00lkiddGIT/FLX-FLUXER-SELFBOT/releases">
+          <span class="dl-icon linux"></span>
+          <h3>Linux / Chromebook</h3>
+          <p>FLX-ChromeOS.zip</p>
+        </a>
+        <a class="download-card glass" href="https://github.com/Thec00lkiddGIT/FLX-FLUXER-SELFBOT">
+          <span class="dl-icon src"></span>
+          <h3>From source</h3>
+          <p>Python 3.12+ · <code>python gui.py</code></p>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand" href="#">
+      <img src="./static/icon.png" alt="" width="28" height="28" />
+      <span>FLX</span>
+    </a>
+    <p>Fluxer selfbot · Not affiliated with Fluxer.app</p>
+    <div class="footer-links">
+      <a href="https://github.com/Thec00lkiddGIT/FLX-FLUXER-SELFBOT">GitHub</a>
+      <a href="https://github.com/Thec00lkiddGIT/FLX-FLUXER-SELFBOT/releases">Releases</a>
+      <a href="https://fluxer.app" target="_blank" rel="noopener">Fluxer</a>
+    </div>
+  </footer>
+</body>
+</html>
